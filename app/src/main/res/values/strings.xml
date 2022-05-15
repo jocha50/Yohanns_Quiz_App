@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Yohanns Quiz App</string>
+    <string name="app_description">Welcome to our Quiz App. This App Helps you take the quiz that is assigned by your instructor.
+    Please press <b>Go To Test</b> to start the quiz or <b>Review Docs</b> to review materials once more again. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="correct_answer"><b>Correct Answer: </b></string>
+    <string name="user_answer"><b>Your Answer: </b></string>
+</resources>
