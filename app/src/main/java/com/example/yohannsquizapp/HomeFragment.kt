@@ -157,9 +157,9 @@ class HomeFragment : BaseFragment() {
 
     private fun setQuestionOnScreen(view: View) {
         println("index $index")
-        questionNumber.text = "${(index + 1).toString()}."
 
         if (index < 15) {
+        questionNumber.text = "${(index + 1).toString()}."
             question.setText(questionsFromDatabase?.get(index)?.question);
 
             val questionId = questionsFromDatabase!!.get(index)?.id;
