@@ -96,12 +96,6 @@ class HomeFragment : BaseFragment() {
         }
 
         submitButton.setOnClickListener {
-            Toast.makeText(
-                it.context,
-                "pop up window is gonna display score $score",
-                Toast.LENGTH_LONG
-            ).show()
-
             launch {
                 context?.let {
                     val questionMap: HashMap<Int, Question> = HashMap()
